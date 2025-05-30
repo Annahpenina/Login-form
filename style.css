@@ -1,0 +1,77 @@
+body{
+    background-color:#FF6016;
+
+}
+p{ 
+    color:#1C1B0B;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#form-input {
+    background-color: #FFC22E;
+    border: 2px solid #B4D772;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    width: 400px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+ #username {
+    color:#F1EFE1;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #B4D772;
+    margin-bottom: 10px;
+}
+#password {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #B4D772;
+    margin-bottom: 10px;
+} 
+
+.btn {
+    color: #1C1B0B;
+    background: #B4D772;
+    margin: 10px;
+    padding: 5px 10px;
+    position: centre;
+}
+button :hover {
+    background-color: #F1EFE1;
+    cursor: pointer;
+
+}
+
+.input-form {
+  max-width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1C1B0B;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
